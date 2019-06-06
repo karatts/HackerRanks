@@ -28,7 +28,8 @@ public class Solution {
         Double d = scan.nextDouble();
         String s = scan.nextLine();
         while(s.equals("")){
-            
+           s = scan.nextLine();
+        }
 
         System.out.println("String: " + s);
         System.out.println("Double: " + d);
